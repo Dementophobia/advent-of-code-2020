@@ -1,6 +1,4 @@
 import time
-from datetime import datetime
-import sqlite3
 
 def read_file(name, strip = True):
     with open("files/input" + name) as f:
