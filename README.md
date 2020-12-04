@@ -6,7 +6,7 @@ My [Advent of Code](https://adventofcode.com/2020) (Season 2020) solutions writt
 | [Day 1](https://adventofcode.com/2020/day/1)   | [Part 1](./2020_01_p1.py) and [Part 2](./2020_01_p2.py) | -                                                            |
 | [Day 2](https://adventofcode.com/2020/day/2)   | [Part 1](./2020_02_p1.py) and [Part 2](./2020_02_p2.py) | [Assignment Expressions](https://twitter.com/Dementophobia/status/1334059861429149698) |
 | [Day 3](https://adventofcode.com/2020/day/3)   | [Part 1](./2020_03_p1.py) and [Part 2](./2020_03_p2.py) | -                                                            |
-| [Day 4](https://adventofcode.com/2020/day/4)   | -                                                       | -                                                            |
+| [Day 4](https://adventofcode.com/2020/day/4)   | [Part 1](./2020_04_p1.py) and [Part 2](./2020_04_p2.py) | -                                                            |
 | [Day 5](https://adventofcode.com/2020/day/5)   | -                                                       | -                                                            |
 | [Day 6](https://adventofcode.com/2020/day/6)   | -                                                       | -                                                            |
 | [Day 7](https://adventofcode.com/2020/day/7)   | -                                                       | -                                                            |
