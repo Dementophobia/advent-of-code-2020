@@ -20,12 +20,9 @@ def calc_seat_id(seat):
 
 @timer
 def solve():
-    input = read_file("05")
-
-    seats = sorted(input, key = lambda s: s[7:])
-    seats = sorted(seats, key = lambda s: s[:7], reverse = True)
-    
-    return calc_seat_id(seat) 
+    seats = sorted(read_file("05"), key = lambda s: s[7:], reverse = True)
+    seats = sorted(seats, key = lambda s: s[:7])
+    return calc_seat_id(seats[0])
 
 result = solve()
 print(f"Solution: {result}")
