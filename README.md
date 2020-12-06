@@ -8,7 +8,7 @@ My [Advent of Code](https://adventofcode.com/2020) (Season 2020) solutions writt
 | [Day 3](https://adventofcode.com/2020/day/3)   | [Part 1](./2020_03_p1.py) and [Part 2](./2020_03_p2.py) | -                                                            |
 | [Day 4](https://adventofcode.com/2020/day/4)   | [Part 1](./2020_04_p1.py) and [Part 2](./2020_04_p2.py) | -                                                            |
 | [Day 5](https://adventofcode.com/2020/day/5)   | [Part 1](./2020_05_p1.py) and [Part 2](./2020_05_p2.py) | [Sorting with lambda function](https://twitter.com/Dementophobia/status/1335154845045694465) |
-| [Day 6](https://adventofcode.com/2020/day/6)   | -                                                       | -                                                            |
+| [Day 6](https://adventofcode.com/2020/day/6)   | [Part 1](./2020_06_p1.py) and [Part 2](./2020_06_p2.py) | [Applying reduce() to a list of sets](https://twitter.com/Dementophobia/status/1335465741647220736) |
 | [Day 7](https://adventofcode.com/2020/day/7)   | -                                                       | -                                                            |
 | [Day 8](https://adventofcode.com/2020/day/8)   | -                                                       | -                                                            |
 | [Day 9](https://adventofcode.com/2020/day/9)   | -                                                       | -                                                            |
