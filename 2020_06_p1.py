@@ -12,7 +12,7 @@ def solve():
             questions.update(set(line))
         else:
             result += len(questions)
-            questions = set()
+            questions.clear()
 
     return result
 

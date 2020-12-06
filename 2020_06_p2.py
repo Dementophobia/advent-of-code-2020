@@ -13,7 +13,7 @@ def solve():
             questions.append(set(line))
         else:
             result += len(reduce(lambda q1,q2: q1&q2, questions))
-            questions = []
+            questions.clear()
 
     return result
 
