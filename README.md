@@ -11,7 +11,7 @@ My [Advent of Code](https://adventofcode.com/2020) (Season 2020) solutions writt
 | [Day 6](https://adventofcode.com/2020/day/6)   | [Part 1](./2020_06_p1.py) and [Part 2](./2020_06_p2.py) | [Applying reduce() to a list of sets](https://twitter.com/Dementophobia/status/1335465741647220736) |
 | [Day 7](https://adventofcode.com/2020/day/7)   | [Part 1](./2020_07_p1.py) and [Part 2](./2020_07_p2.py) | -                                                            |
 | [Day 8](https://adventofcode.com/2020/day/8)   | [Part 1](./2020_08_p1.py) and [Part 2](./2020_08_p2.py) | -                                                            |
-| [Day 9](https://adventofcode.com/2020/day/9)   | -                                                       | -                                                            |
+| [Day 9](https://adventofcode.com/2020/day/9)   | [Part 1](./2020_09_p1.py) and [Part 2](./2020_09_p2.py) | -                                                            |
 | [Day 10](https://adventofcode.com/2020/day/10) | -                                                       | -                                                            |
 | [Day 11](https://adventofcode.com/2020/day/11) | -                                                       | -                                                            |
 | [Day 12](https://adventofcode.com/2020/day/12) | -                                                       | -                                                            |
