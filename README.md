@@ -12,7 +12,7 @@ My [Advent of Code](https://adventofcode.com/2020) (Season 2020) solutions writt
 | [Day 7](https://adventofcode.com/2020/day/7)   | [Part 1](./2020_07_p1.py) and [Part 2](./2020_07_p2.py) | -                                                            |
 | [Day 8](https://adventofcode.com/2020/day/8)   | [Part 1](./2020_08_p1.py) and [Part 2](./2020_08_p2.py) | -                                                            |
 | [Day 9](https://adventofcode.com/2020/day/9)   | [Part 1](./2020_09_p1.py) and [Part 2](./2020_09_p2.py) | -                                                            |
-| [Day 10](https://adventofcode.com/2020/day/10) | -                                                       | -                                                            |
+| [Day 10](https://adventofcode.com/2020/day/10) | [Part 1](./2020_10_p1.py) and [Part 2](./2020_10_p2.py) | -                                                            |
 | [Day 11](https://adventofcode.com/2020/day/11) | -                                                       | -                                                            |
 | [Day 12](https://adventofcode.com/2020/day/12) | -                                                       | -                                                            |
 | [Day 13](https://adventofcode.com/2020/day/13) | -                                                       | -                                                            |
