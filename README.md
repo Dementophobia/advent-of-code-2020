@@ -18,8 +18,8 @@ My [Advent of Code](https://adventofcode.com/2020) (Season 2020) solutions writt
 | [Day 13](https://adventofcode.com/2020/day/13) | [Part 1](./2020_13_p1.py) and [Part 2](./2020_13_p2.py) | -                                                            |
 | [Day 14](https://adventofcode.com/2020/day/14) | [Part 1](./2020_14_p1.py) and [Part 2](./2020_14_p2.py) | -                                                            |
 | [Day 15](https://adventofcode.com/2020/day/15) | [Part 1](./2020_15_p1.py) and [Part 2](./2020_15_p2.py) | [Using Dict Comprehensions](https://twitter.com/Dementophobia/status/1338749990185951232) |
-| [Day 16](https://adventofcode.com/2020/day/16) | -                                                       | -                                                            |
-| [Day 17](https://adventofcode.com/2020/day/17) | -                                                       | -                                                            |
+| [Day 16](https://adventofcode.com/2020/day/16) | Needs refactoring first ;)                              | -                                                            |
+| [Day 17](https://adventofcode.com/2020/day/17) | [Part 1](./2020_17_p1.py) and [Part 2](./2020_17_p2.py) | -                                                            |
 | [Day 18](https://adventofcode.com/2020/day/18) | -                                                       | -                                                            |
 | [Day 19](https://adventofcode.com/2020/day/19) | -                                                       | -                                                            |
 | [Day 20](https://adventofcode.com/2020/day/20) | -                                                       | -                                                            |
