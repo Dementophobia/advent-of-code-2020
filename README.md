@@ -22,8 +22,8 @@ My [Advent of Code](https://adventofcode.com/2020) (Season 2020) solutions writt
 | [Day 17](https://adventofcode.com/2020/day/17) | [Part 1](./2020_17_p1.py) and [Part 2](./2020_17_p2.py) | -                                                            |
 | [Day 18](https://adventofcode.com/2020/day/18) | [Part 1](./2020_18_p1.py) and [Part 2](./2020_18_p2.py) | -                                                            |
 | [Day 19](https://adventofcode.com/2020/day/19) | [Part 1](./2020_19_p1.py) and [Part 2](./2020_19_p2.py) | -                                                            |
-| [Day 20](https://adventofcode.com/2020/day/20) | -                                                       | -                                                            |
-| [Day 21](https://adventofcode.com/2020/day/21) | -                                                       | -                                                            |
+| [Day 20](https://adventofcode.com/2020/day/20) | [Part 1](./2020_20_p1.py) and [Part 2](./2020_20_p2.py) | -                                                            |
+| [Day 21](https://adventofcode.com/2020/day/21) | [Part 1](./2020_21_p1.py) and [Part 2](./2020_21_p2.py) | -                                                            |
 | [Day 22](https://adventofcode.com/2020/day/22) | -                                                       | -                                                            |
 | [Day 23](https://adventofcode.com/2020/day/23) | -                                                       | -                                                            |
 | [Day 24](https://adventofcode.com/2020/day/24) | -                                                       | -                                                            |
