@@ -1,4 +1,5 @@
 from aoc import read_file, timer
+from re import match
 
 @timer
 def solve():
@@ -6,32 +7,21 @@ def solve():
     memory = dict()
     
     for line in raw_input:
-        if line[:4] == "mask":
-            mask = line.split(" = ")[1]
+        if mask_match := match(r"mask = ([X01]+)", line):
+            mask = mask_match.group(1)
         else:
-            addr = list(f'{int(line.split("]")[0][4:]):036b}')
-            value = int(line.split(" = ")[1])
-            
-            for i in range(36):
-                if mask[i] == "1":
-                    addr[i] = "1"
-            
-            addresses = [addr]
+            addresses, value = match(r"mem\[(\d+)\] = (\d+)", line).group(1, 2)
+            addresses = list(f'{int(addresses):036b}')
+            addresses = [["1" if mask[i] == "1" else addresses[i] for i in range(36)]]
             
             for i in range(36):
                 if mask[i] == "X":
-                    new_addresses = []
-                    for address in addresses:
-                        address = address[:i] + ["0"] + address[i+1:]
-                        new_addresses.append(address)
-                        address = address[:i] + ["1"] + address[i+1:]
-                        new_addresses.append(address)
-                    addresses = new_addresses
+                    addresses = [address[:i] + [bit] + address[i+1:] for bit in ("0", "1") for address in addresses]
             
             for address in addresses:
-                memory[int("".join(address), 2)] = value
+                memory[tuple(address)] = int(value)
     
-    return sum([value for value in memory.values()])
+    return sum((value for value in memory.values()))
 
 result = solve()
 print(f"Solution: {result}")

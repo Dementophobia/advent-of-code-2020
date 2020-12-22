@@ -1,4 +1,5 @@
 from aoc import read_file, timer
+from re import match
 
 @timer
 def solve():
@@ -6,18 +7,13 @@ def solve():
     memory = dict()
     
     for line in raw_input:
-        if line[:4] == "mask":
-            mask = line.split(" = ")[1]
+        if mask_match := match(r"mask = ([X01]+)", line):
+            mask = mask_match.group(1)
         else:
-            addr = line.split("]")[0][4:]
-            value = list(f'{int(line.split(" = ")[1]):036b}')
-            
-            for i in range(36):
-                if mask[i] == "X":
-                    continue
-                value[i] = mask[i]
-            
-            memory[addr] = int("".join(value), 2)
+            address, value = match(r"mem\[(\d+)\] = (\d+)", line).group(1, 2)
+            value = list(f'{int(value):036b}')
+            value = [value[i] if mask[i] == "X" else mask[i] for i in range(36)]
+            memory[address] = int("".join(value), 2)
     
     return sum([value for value in memory.values()])
 
