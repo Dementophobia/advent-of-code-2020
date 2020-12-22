@@ -1,5 +1,5 @@
 from aoc import read_file, timer
-from re import findall
+from re import match, sub
 from collections import defaultdict
 
 def analyse_input(raw_input):
@@ -7,8 +7,8 @@ def analyse_input(raw_input):
     all_ingredients = []
     
     for line in raw_input:
-        words = findall(r"(\w+)", line)
-        ingredients, allergens = words[:(seperator := words.index("contains"))], words[seperator + 1:]
+        ingredients, allergens = [words.split() for words in match(r"((?:(?:\w+) )+)\(contains ((?:(?:\w+) *)+)\)", sub(",", "", line)).group(1, 2)]
+
         for allergen in allergens:
             allergens_dict[allergen].append(set(ingredients))
         all_ingredients.extend(ingredients)
