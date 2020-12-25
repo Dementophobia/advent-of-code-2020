@@ -27,5 +27,5 @@ My [Advent of Code](https://adventofcode.com/2020) (Season 2020) solutions writt
 | [Day 22](https://adventofcode.com/2020/day/22) | [Part 1](./2020_22_p1.py) and [Part 2](./2020_22_p2.py) | -                                                            |
 | [Day 23](https://adventofcode.com/2020/day/23) | [Part 1](./2020_23_p1.py) and [Part 2](./2020_23_p2.py) | -                                                            |
 | [Day 24](https://adventofcode.com/2020/day/24) | [Part 1](./2020_24_p1.py) and [Part 2](./2020_24_p2.py) | -                                                            |
-| [Day 25](https://adventofcode.com/2020/day/25) | -                                                       | -                                                            |
+| [Day 25](https://adventofcode.com/2020/day/25) | [Part 1](./2020_25_p1.py)                               | -                                                            |
 
